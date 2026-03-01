@@ -1,0 +1,84 @@
+{
+  "selected_model": "GradientBoostingClassifier",
+  "model_file": "model.pkl",
+  "scaler_file": "scaler.pkl",
+  "model_version": "v1.0",
+  "dataset_size": 70000,
+  "feature_count": 11,
+  "test_metrics": {
+    "accuracy": 0.7229,
+    "precision": 0.8017,
+    "recall": 0.5918,
+    "f1_score": 0.6809,
+    "roc_auc": 0.776
+  },
+  "cross_validation": {
+    "mean": 0.7372,
+    "std": 0.0033,
+    "folds": [
+      0.7393,
+      0.7343,
+      0.7324,
+      0.7412,
+      0.7388
+    ]
+  },
+  "hyperparameter_tuning": {
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 200
+    },
+    "best_cv_f1": 0.7273
+  },
+  "overfitting_check": {
+    "training_accuracy": 0.7231,
+    "testing_accuracy": 0.7229,
+    "gap": 0.0003,
+    "verdict": "WELL FITTED"
+  },
+  "best_model_comparison": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.7118,
+      "Precision": 0.7301,
+      "Recall": 0.6715,
+      "F1-Score": 0.6996
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.7224,
+      "Precision": 0.73,
+      "Recall": 0.7055,
+      "F1-Score": 0.7175
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.7069,
+      "Precision": 0.7102,
+      "Recall": 0.6984,
+      "F1-Score": 0.7043
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Accuracy": 0.7325,
+      "Precision": 0.7501,
+      "Recall": 0.6968,
+      "F1-Score": 0.7225
+    },
+    {
+      "Model": "Linear SVM",
+      "Accuracy": 0.6463,
+      "Precision": 0.6548,
+      "Recall": 0.6178,
+      "F1-Score": 0.6358
+    },
+    {
+      "Model": "Naive Bayes",
+      "Accuracy": 0.587,
+      "Precision": 0.716,
+      "Recall": 0.2876,
+      "F1-Score": 0.4104
+    }
+  ]
+}

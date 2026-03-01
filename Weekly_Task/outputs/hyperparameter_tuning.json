@@ -1,0 +1,8 @@
+{
+  "best_params": {
+    "learning_rate": 0.1,
+    "max_depth": 3,
+    "n_estimators": 200
+  },
+  "best_cv_f1": 0.7273
+}

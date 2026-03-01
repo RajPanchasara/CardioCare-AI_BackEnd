@@ -1,0 +1,7 @@
+Model,Accuracy,Precision,Recall,F1-Score
+Gradient Boosting,0.7325,0.7501,0.6968,0.7225
+Decision Tree,0.7224,0.73,0.7055,0.7175
+Random Forest,0.7069,0.7102,0.6984,0.7043
+Logistic Regression,0.7118,0.7301,0.6715,0.6996
+Linear SVM,0.6463,0.6548,0.6178,0.6358
+Naive Bayes,0.587,0.716,0.2876,0.4104

@@ -1,0 +1,144 @@
+{
+  "problem_statement": "Cardiovascular disease (CVD) is the leading cause of death worldwide. This project builds a Machine Learning model to predict the presence of cardiovascular disease based on patient examination data including age, blood pressure, cholesterol, glucose levels, and lifestyle factors.",
+  "dataset": {
+    "name": "Cardiovascular Disease Dataset (Kaggle)",
+    "rows": 70000,
+    "columns": 12,
+    "target": "cardio (binary: 0/1)",
+    "features": {
+      "age": "Patient age in years",
+      "gender": "Gender (1=Female, 2=Male)",
+      "height": "Height in cm",
+      "weight": "Weight in kg",
+      "ap_hi": "Systolic blood pressure",
+      "ap_lo": "Diastolic blood pressure",
+      "cholesterol": "Cholesterol level (1=Normal, 2=Above Normal, 3=Well Above)",
+      "gluc": "Glucose level (1=Normal, 2=Above Normal, 3=Well Above)",
+      "smoke": "Smoking status (0=No, 1=Yes)",
+      "alco": "Alcohol intake (0=No, 1=Yes)",
+      "active": "Physical activity (0=No, 1=Yes)"
+    }
+  },
+  "summary_statistics": {
+    "age": {
+      "count": 70000.0,
+      "mean": 52.8032571429,
+      "std": 6.7624617118,
+      "min": 29.0,
+      "25%": 48.0,
+      "50%": 53.0,
+      "75%": 58.0,
+      "max": 64.0
+    },
+    "gender": {
+      "count": 70000.0,
+      "mean": 1.3495714286,
+      "std": 0.4768380156,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 2.0,
+      "max": 2.0
+    },
+    "height": {
+      "count": 70000.0,
+      "mean": 164.3592285714,
+      "std": 8.2101263645,
+      "min": 55.0,
+      "25%": 159.0,
+      "50%": 165.0,
+      "75%": 170.0,
+      "max": 250.0
+    },
+    "weight": {
+      "count": 70000.0,
+      "mean": 74.20569,
+      "std": 14.3957566785,
+      "min": 10.0,
+      "25%": 65.0,
+      "50%": 72.0,
+      "75%": 82.0,
+      "max": 200.0
+    },
+    "ap_hi": {
+      "count": 70000.0,
+      "mean": 128.8172857143,
+      "std": 154.0114194561,
+      "min": -150.0,
+      "25%": 120.0,
+      "50%": 120.0,
+      "75%": 140.0,
+      "max": 16020.0
+    },
+    "ap_lo": {
+      "count": 70000.0,
+      "mean": 96.6304142857,
+      "std": 188.4725302964,
+      "min": -70.0,
+      "25%": 80.0,
+      "50%": 80.0,
+      "75%": 90.0,
+      "max": 11000.0
+    },
+    "cholesterol": {
+      "count": 70000.0,
+      "mean": 1.3668714286,
+      "std": 0.6802503487,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 2.0,
+      "max": 3.0
+    },
+    "gluc": {
+      "count": 70000.0,
+      "mean": 1.2264571429,
+      "std": 0.5722702766,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 3.0
+    },
+    "smoke": {
+      "count": 70000.0,
+      "mean": 0.0881285714,
+      "std": 0.2834838168,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    "alco": {
+      "count": 70000.0,
+      "mean": 0.0537714286,
+      "std": 0.2255677036,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    "active": {
+      "count": 70000.0,
+      "mean": 0.8037285714,
+      "std": 0.3971790635,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "cardio": {
+      "count": 70000.0,
+      "mean": 0.4997,
+      "std": 0.5000034815,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    }
+  }
+}
